@@ -8,7 +8,7 @@ spec:
   - name: print-hello
     image: busybox
     command: ["/bin/sh"]
-    args: ['-c', 'echo "Hellow from tekton pipeline"']
+    args: ['-c', 'echo "Hello from tekton pipeline"']
 
 ---
 apiVersion: tekton.dev/v1alpha1
